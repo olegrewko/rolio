@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Plumber</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" href="js/jquery.rateyo.min.css" />
+  <link rel="stylesheet" href="css/jquery.rateyo.min.css" /> -->
+   <link rel="stylesheet" href="./css/vendor.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/fotorama464.min.css" />
+  <!-- <link rel="stylesheet" href="css/fotorama464.min.css" /> -->
+  <!-- <script rel="stylesheet" href="js/vendor/fotorama464.min.js" /> -->
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script defer src="./js/main.js"></script>
+<!-- <script defer src="./js/jquery341.min.js"></script> -->
+</head>
+
+<body class="card-page">
+  <div class="site-container">
+
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-b">
+            <button class="menu__btn">
+              <div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+              </div>
+            </button>
+            <div class="cart-icon-black">
+              <a class="user-list__link cart">
+                <img src="./img/cart.svg" alt="" />
+                <p class="cart__num">2</p>
+              </a>
+            </div>
+          </div>
+          <div class="header__top-inner">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="tel:+79998525821">8(999)8525821</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="tel:+79998525821">8(800)9525581</a>
+                </li>
+              </ul>
+            </nav>
+            <a href="./index.html">
+              <h1 class="logo">Plumber-500</h1>
+              <span class="logo-text">Магазин отопительного оборудования</span>
+            </a>
+
+            <form class="filter-search__form" type="text">
+              <input
+                class="filter-search__input"
+                type="text"
+                placeholder="Search..."
+              />
+              <button class="filter-search__btn" type="submit">
+                <img src="./img/search.png" alt="search.png" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- adaptive -->
+      <ul class="menu-mobile__list">
+
+        <li class="menu-mobile__item">
+
+          <a class="menu-mobile__link" href="#"><p>Котлы</p></a>
+                <!-- <ul class="subcatalog">
+                  <li><a href="">Электрокотлы</a></li>
+                  <li><a href="">Газовые котлы</a></li>
+                </ul> -->
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"><p>Водонагреватели</p></a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"><p>Радиаторы</p></a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"><p>Насосы</p></a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"
+            ><p>Котельное оборудование</p></a
+          >
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"><p>Трубы и фитинги</p></a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"><p>Полотенцесушители</p></a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#"><p>Теплый пол</p></a>
+        </li>
+      </ul>
+
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom-inner">
+            <ul class="menu-categories">
+              <li class="menu-categories__item ">
+                <a class="menu-categories__link" href="#">Главная</a>
+              </li>
+
+               <li class="menu-categories__item">
+                <a class="menu-categories__link" href="#">Аккаунт</a>
+              </li>
+              <li class="menu-categories__item">
+                <a class="menu-categories__link" href="#">Монтаж</a>
+                <ul class="subcatalog">
+                  <li><a href="">Виртуальная реальность</a></li>
+                  <li><a href="">Моноподы для селфи</a></li>
+                </ul>
+              </li>
+              <li class="menu-categories__item">
+                <a class="menu-categories__link" href="#">Магазины</a>
+              </li>
+
+              <li class="menu-categories__item">
+                <a class="menu-categories__link" href="#">Доставка</a>
+              </li>
+              <li class="menu-categories__item">
+                <a class="menu-categories__link" href="#">Акции</a>
+              </li>
+
+              <li class="menu-categories__item big">
+                <a class="menu-categories__link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+            <button class="cart-prev">
+              <div class="cart-price">
+                0
+                <span class="cart-pr">p</span>
+              </div>
+
+              <div class="cart-icon">
+                <a class="user-list__link cart">
+                  <img src="img/cart.svg" alt="" />
+                  <p class="cart__num">2</p>
+                </a>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+   <script>
+    $(function () {
+  $('.menu__btn').on('click', function name() {
+    $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
+
+
+  });
+});
+   </script>
+
+    <main class="main">
+
+      <section class="card">
+        <h2 class="visually-hidden">Contacts</h2>
+
+      <div class="card-content">
+        <div class="card-content__top">
+          <div class="contacts">
+  <div class="container  contacts__box">
+    <div class="hero-blog__overlay">
+      <h1 class="hero-blog__title">Contacts</h1>
+      <div class="breadcrumbs-card">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="./index.html" class="breadcrumbs__link">Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="./catalog.html" class="breadcrumbs__link">Shop</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="./about.html" class="breadcrumbs__link">About</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="./blog.html" class="breadcrumbs__link">Blog</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="./card.html" class="breadcrumbs__link"> Card </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a
+                href="./contacts.html"
+                class="breadcrumbs__link breadcrumbs__link--current"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container ">
+    <h3 class="contacts__title">Contact Us</h3>
+    <p class="contacts__subtitle">Get in touch with us</p>
+    <section class="socialmap">
+      <div id="map" class="text-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.822174089799!2d37.61030017050038!3d55.757739672412825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a454f72f4ff%3A0x923352d5be7df67b!2z0KLQstC10YDRgdC60LDRjyDRg9C7LiwgNSwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEyNTAwOQ!5e0!3m2!1sru!2sua!4v1596189839076!5m2!1sru!2sua"
+          width="100%"
+          height="300"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        >
+        </iframe>
+      </div>
+    </section>
+    <section class="container contact-grid-w100">
+      <div class="contact-grid__content">
+
+        <h3 class="contacts__title">Send Us a Message</h3>
+        <p class="contacts__subtitle">
+          Have some suggestions or just want to say hi.<br />
+          Contact Us.
+        </p>
+      </div>
+      <form class="contacts__form">
+
+        <input
+          class="contacts__input"
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name"
+        />
+        <input
+          class="contacts__input"
+          type="text"
+          id="femail"
+          name="firstemail"
+          placeholder="Your email"
+        />
+        <textarea
+          class="contacts__input"
+          id="subject"
+          name="subject"
+          placeholder="Your Message"
+          style="height: 90px; width: 100%"
+        ></textarea>
+
+        <input class="contacts__submit" type="submit" value="Send" />
+
+      </form>
+    </section>
+    <h3 class="contacts__title">Contact Information</h3>
+
+    <div class="footer__top">
+      <div class="footer__column">
+        <div>
+          <h5>Melbourn office</h5>
+          <div class="about-grid__address">
+            <img class="about-grid__image" src="./img/map-point.png" alt="" />
+            <span>Little Bridht 45, Melbourne</span>
+          </div>
+
+          <div class="about-grid__tel">
+            <img class="about-grid__image" src="./img/smart.png" alt="" />
+            <span>8-999-852-58-21</span>
+          </div>
+
+          <div class="about-grid__email">
+            <img class="about-grid__image" src="./img/email.png" alt="" />
+            <span>olegrewko@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__column">
+        <div>
+          <h5>Sidney office</h5>
+          <div class="about-grid__address">
+            <img class="about-grid__image" src="./img/map-point.png" alt="" />
+            <span>Little Bridht 45, Melbourne</span>
+          </div>
+
+          <div class="about-grid__tel">
+            <img class="about-grid__image" src="./img/smart.png" alt="" />
+            <span>8-999-852-58-21</span>
+          </div>
+
+          <div class="about-grid__email">
+            <img class="about-grid__image" src="./img/email.png" alt="" />
+            <span>olegrewko@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__column">
+        <div>
+          <h5>Opening hours</h5>
+          <div class="about-grid__hours">
+            <span>Monday-Friday</span>
+            <span>10.00-20.00</span>
+          </div>
+          <div class="about-grid__hours">
+            <span>Saturday</span>
+            <span>10.00-18.00</span>
+          </div>
+          <div class="about-grid__hours">
+            <span>Sunday</span>
+            <span>Closed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+      </section>
+    </main>
+    <footer class="footer-black">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__top">
+        <div class="footer-black__column">
+          <h3 class="footer-black__title">Интернет-магазин</h3>
+          <ul class="footer__list">
+            <li class="footer__item footer-black__phone">89998525821</li>
+            <li class="footer__item footer-black__phone">89998525821</li>
+            <li class="footer__item"><a href="" class="footer-black__link">О нас</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Монтаж</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Доставка</a></li>
+          </ul>
+        </div>
+        <div class="footer-black__column">
+          <h3 class="footer-black__title">Каталог</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="" class="footer-black__link">Котлы</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Водонагреватели</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Радиаторы</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Насосы</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Котельное оборудование</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Трубы и фитинги</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Полотенцесушители</a></li>
+            <li class="footer__item"><a href="" class="footer-black__link">Теплый пол</a></li>
+          </ul>
+        </div>
+        <div class="footer-black__column">
+
+          <h3 class="footer-black__title">Подпишитесь на нашу рассылку</h3>
+          <form action="" class="footer__form subscribe-form-black">
+            <!-- <h4 class="subscribe-form-black__title">Join our list and get 15% off your first purchase!</h4> -->
+            <label for="" class="subscribe-form-black__field">
+              <input class="subscribe-form-black__placeholder" type="email" required placeholder="Email Address">
+            </label>
+            <button class="subscribe-form-black__btn btn-reset" type="submit" >Отправить</button>
+          </form>
+          <!-- <span class="footer-black__text">Don't worry we don't spam </span> -->
+        </div>
+
+      </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+      <div class="footer__bottom-wrap">
+       <ul class="footer__navigation">
+        <li class="footer__navigation-item"><a href="./index.html" class="footer-black__link">Главная</a></li>
+        <li class="footer__navigation-item"><a href="./catalog.html" class="footer-black__link">Аккаунт</a></li>
+        <li class="footer__navigation-item"><a href="./about.html" class="footer-black__link">Монтаж</a></li>
+        <li class="footer__navigation-item"><a href="./blog.html" class="footer-black__link">Магазины</a></li>
+        <li class="footer__navigation-item"><a href="./card.html" class="footer-black__link">Акции</a></li>
+        <li class="footer__navigation-item"><a href="./contacts.html" class="footer-black__link">Контакты</a></li>
+       </ul>
+       <div class="social">
+        <div class="container ">
+        <div class="social-inner">
+          <div class="" title="В контакте">
+            <div class="roll">
+              <img class="regular" src="./img/icons/vk45gray.png" /><a
+                href="http://vk.com/share.php?url=[URL]&title=[TITLE]&description=[DESC]&image=[IMAGE]&noparse=true"
+                ><img class="rollover" src="./img/icons/vk45maroon.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="В контакте">
+            <div class="roll">
+              <img class="regular" src="./img/icons/vk50gray.png" /><a
+                href="http://vk.com/share.php?url=[URL]&title=[TITLE]&description=[DESC]&image=[IMAGE]&noparse=true"
+                ><img class="rollover" src="./img/icons/vkmaroon50.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Фэйсбук">
+            <div class="roll">
+              <img class="regular" src="./img/icons/fb45gray.png" /><a
+                href="https://www.facebook.com/sharer/sharer.php?u=[URL]"
+                ><img class="rollover" src="./img/icons/fb45white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Одноклассники">
+            <div class="roll">
+              <img class="regular" src="./img/icons/o46gray.png" /><a
+                href="http://ok.ru"
+                ><img class="rollover" src="./img/icons/o46white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Инстаграмм">
+            <div class="roll">
+              <img class="regular" src="./img/icons/i45gray.png" /><a
+                href="https://www.instagram.com/"
+                ><img class="rollover" src="./img/icons/i45white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Твиттер">
+            <div class="roll">
+              <img class="regular" src="./img/icons/twittergray.png" /><a
+                href="https://twitter.com/share?url=[URL]&text=[TITLE]"
+                ><img class="rollover" src="./img/icons/twitter-white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Реддит">
+            <div class="roll">
+              <img class="regular" src="./img/icons/re50gray.png" /><a
+                href="https://www.reddit.com"
+                ><img class="rollover" src="./img/icons/re50white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Рутуб">
+            <div class="roll">
+              <img class="regular" src="./img/icons/rutube45grey.png" /><a
+                href="https://rutube.ru/search/?query=olegrewko"
+                ><img class="rollover" src="./img/icons/rutube45.png"
+              /></a>
+            </div>
+          </div>
+          <div class="" title="Гитхаб">
+            <div class="roll">
+              <img class="regular" src="./img/icons/ghbl45gray.png" /><a
+                href="https://github.com/olegrewko/olegrewko.github.io"
+                ><img class="rollover" src="./img/icons/gh45white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="Ютуб">
+            <div class="roll">
+              <img class="regular" src="./img/icons/youtube45gray01.png" /><a
+                href="https://www.youtube.com/channel/UCU-sIbAKpKDuuheQClfKspA"
+                ><img class="rollover" src="./img/icons/youtubemaroon.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="tagged">
+            <div class="roll">
+              <img class="regular" src="./img/icons/taggedgray.png" /><a
+                href="https://secure.tagged.com/"
+                ><img class="rollover" src="./img/icons/tagged-white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="flikr">
+            <div class="roll">
+              <img class="regular" src="./img/icons/flikrgray.png" /><a
+                href="https://www.flickr.com"
+                ><img class="rollover" src="./img/icons/flikrblack.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="pinterest">
+            <div class="roll">
+              <img class="regular" src="./img/icons/pinterest.png" /><a
+                href="https://ru.pinterest.com/"
+                ><img class="rollover" src="./img/icons/pinterest002.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="meetme">
+            <div class="roll">
+              <img class="regular" src="./img/icons/meetmegray.png" /><a
+                href="http://seoslim.ru/gg/socialnaya-set-meetme.html"
+                ><img class="rollover" src="./img/icons/meetme-white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="meetup">
+            <div class="roll">
+              <img class="regular" src="./img/icons/meetupgray.png" /><a
+                href="http://seoslim.ru/gg/socialnaya-set-meetup-com.html"
+                ><img class="rollover" src="./img/icons/meetup-white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="myspace">
+            <div class="roll">
+              <img class="regular" src="./img/icons/myspacegray.png" /><a
+                href="https://www.myspace.com"
+                ><img class="rollover" src="./img/icons/myspace-white.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="periscope">
+            <div class="roll">
+              <img class="regular" src="./img/icons/periscope001.png" /><a
+                href="https://www.periscope.tv/"
+                ><img class="rollover" src="./img/icons/periscopemaroon.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="" title="tumblr">
+            <div class="roll">
+              <img class="regular" src="./img/icons/tumblrgray.png" /><a
+                href="https://www.tumblr.com"
+                ><img class="rollover" src="./img/icons/tumblr-white.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+         </div>
+       </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="tiny-footer">
+        <p class="tiny-grey">
+          © All Rights Reserved 2020 | Plumber-500
+        </p>
+        <ul class="tiny-card">
+          <li class="tiny-card__item">
+            <a href="#" class="tiny-card__link">
+              <img src="./img/icons/paypal.png" alt="">
+            </a>
+          </li>
+          <li class="tiny-card__item">
+            <a href="#" class="tiny-card__link">
+              <img src="./img/icons/master.png" alt="">
+            </a>
+          </li>
+          <li class="tiny-card__item">
+            <a href="#" class="tiny-card__link">
+              <img src="./img/icons/visa.png" alt="">
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+  </div>
+    <a href="#" id="toTop" style="display: block">
+      <span id="toTopHover" style="opacity: 1"> </span
+    ></a>
+    <script>
+
+  //  $('.shop-content__filter-btn').on('click', function(){
+
+  //   $('.shop-content__filter-btn').removeClass('shop-content__filter-btn--active');
+  //   $(this).addClass('shop-content__filter-btn--active');
+  // });
+
+    </script>
+</body>
+
+</html>
